@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
     {
         Screen pantalla = Screen::Create(Dimension::Full(), Dimension::Full());
         Element personaje = spinner(21, frame);
-        Element lienzo = bgcolor(Color::ueBl, border(vbox(ColorSupport,personaje,canvas(&can))));
+        Element lienzo = bgcolor(Color::Green, border(vbox(ColorSupport,personaje,canvas(&can))));
         Render(pantalla, lienzo);
         std::cout << reset_position;
         pantalla.Print();
