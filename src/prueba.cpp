@@ -25,7 +25,7 @@ using namespace ftxui;
         can.DrawPointLine(95,25,105,25);
         can.DrawPointLine(100,35,100,70);
         can.DrawPointLine(100,40,90,50);
-        can.DrawPointLine(100,40,110,40);
+        can.DrawPointLine(100,40,115,35 + frame);
         can.DrawPointLine(100,70,110,80);
         can.DrawPointLine(100,70,90,80);
         
